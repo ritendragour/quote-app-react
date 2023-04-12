@@ -9,9 +9,9 @@ const Home = () => {
         <h1 className='p-5 text-center text-dark'><u>Welcome React Project World</u></h1>
         <HomeButton/>
                 <div className="flex-end text-center">
-                <Link to="/about" className='btn btn-light rounded-5'><AiOutlineHome/> Home</Link>
+                <Link to="/" className='btn btn-light rounded-5'><AiOutlineHome/> Home</Link>
                     &nbsp;
-                    <Link to="/about" className='btn btn-light rounded-5'>About us</Link>
+                    <Link to="/about" className='btn btn-light rounded-5'>About</Link>
                     &nbsp;
                     <Link to="/qoute" className='btn btn-light rounded-5'>Qoute</Link>
                     &nbsp;

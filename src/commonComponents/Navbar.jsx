@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="flex-end">
                     <Link to="/" className='btn btn-light rounded-5 border border-secondary'><AiOutlineHome/> Home</Link>
                     &nbsp;
-                    <Link to="/about" className='btn btn-light rounded-5 border border-secondary'>About us</Link>
+                    <Link to="/about" className='btn btn-light rounded-5 border border-secondary'>About</Link>
                     &nbsp;
                     <Link to="/qoute" className='btn btn-light rounded-5 border border-secondary'>Qoute APP</Link>
                     &nbsp;
