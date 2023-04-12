@@ -10,13 +10,14 @@ const About = () => {
 
         <div className="container p-5">
           <div className="container ">
-            <h4>
-              Getting started : Use command <b className="text-danger">npm run dev</b>
-            </h4>
           </div>
           <h2>
             <u className="text-info">News APP</u>
           </h2>
+            <h4>
+              Getting for started : Use command <b className="text-danger">npm run dev</b>
+            </h4>
+            <h4 className="text-warning"> <b> Vite JS</b>  created by</h4><br />
           <div className="container px-5">
             <h5 className="aboutQoute">
               A news app using React JS is a web application that allows users to
@@ -89,6 +90,11 @@ const About = () => {
         <h2>
           <u className="text-info">Quote APP</u>
         </h2>
+        <h4>
+              Getting for started : Use command <b className="text-danger">npm run dev</b>
+            </h4>
+            <h4 className="text-warning"> <b> Vite JS</b>  created by</h4><br />
+
         <div className="container px-5">
           <h5 className="aboutQoute">
             A quote app using React JS is a web application that displays a
@@ -153,6 +159,11 @@ const About = () => {
         <h2>
           <u className="text-info">URL To QR CODE</u>
         </h2>
+        <h4>
+              Getting for started : Use command <b className="text-danger">npm run dev</b>
+            </h4>
+            <h4 className="text-warning"> <b> Vite JS</b>  created by</h4><br />
+
         <div className="container px-5">
           <h5 className="aboutQoute">
             A URL to QR app using React JS is a web application that allows users to convert a URL into a QR code. The app is built using the React JS library, which provides a fast and efficient way to build user interfaces.
@@ -204,6 +215,11 @@ const About = () => {
         <h2>
           <u className="text-info">Todo app</u>
         </h2>
+        <h4>
+              Getting for started : Use command <b className="text-danger">npm start</b>
+            </h4>
+            <h4 className="text-warning"> <b> Create-react-app</b>  created by</h4><br />
+
         <div className="container px-5">
           <h5 className="aboutQoute">
             A Todo app is a common project for learning and practicing ReactJS, and using Context is a great way to manage global state in a React application. Here are the basic steps to create a Todo app using ReactJS Context:
@@ -251,6 +267,11 @@ const About = () => {
         <h2>
           <u className="text-info">Expense Manager</u>
         </h2>
+        <h4>
+              Getting for started : Use command <b className="text-danger">npm start</b>
+            </h4>
+            <h4 className="text-warning"> <b> Create-react-app</b>  created by</h4><br />
+
         <div className="container px-5">
           <h5 className="aboutQoute">
           An expense manager is a web application that helps users track their expenses and manage their budget. ReactJS is a popular JavaScript library for building user interfaces, and it can be used to create a component-based expense manager application.
