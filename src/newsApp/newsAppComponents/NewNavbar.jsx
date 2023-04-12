@@ -19,7 +19,7 @@ const NewNavbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-2 mar">
       <h2 className='newName'>World News 100+</h2>
-      <marquee behavior="" direction="" className="w-50">{newsss[0].title}</marquee>
+      <marquee behavior="" direction="" className="w-50">dfhnsmk,</marquee>
           <form className="d-flex float-end w-20" role="search" onSubmit={(e) => handleSubmit(e)}>
             {/* <input className="form-control me-2 p-2" type="search" placeholder="Search Country" onChange={(e)=>setText(e.target.value)} required/> */}
             <select id="country" name="country" class="form-control" onChange={(e)=>setText(e.target.value)}>
