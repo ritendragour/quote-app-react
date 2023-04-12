@@ -9,13 +9,12 @@ const QRForm = () => {
 
   const hanleQR = async (e) => {
     e.preventDefault()
-    console.log(text)
     var data = await getQR(text)
     dispatch({
       type: "GET_QR",
       payload: data
     })
-    setText("")
+    setText(" ")
   }
   return (
     <>
@@ -25,7 +24,8 @@ const QRForm = () => {
           <input type="text" className="form-control mt-3 w-100" placeholder="Enter URL" onChange={(e)=>setText(e.target.value)} required/>
           <input type='submit' value="Convert" className='btn btn-primary mt-3 text-center w-100'/>
         </div>
-      <img src={QRS} alt="" width="25%" className='text-center' />
+       <img src={QRS} alt="" width="25%" className='text-center mt-3' />
+      {QRS === "NO_QR"? " ":<h3 className='text-danger mt-3'>{QRS.replace('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=', 'YOUR URL : ').toUpperCase()}</h3>}
       </form>
     </>
   )
