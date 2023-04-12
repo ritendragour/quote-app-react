@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineHome } from "react-icons/ai";
+import { FaUser } from "react-icons/fa";
+
 
 const Navbar = () => {
 
@@ -20,6 +22,8 @@ const Navbar = () => {
                     <Link to="/qr" className='btn btn-light rounded-5 border border-secondary'>URL TO QR</Link>
                     &nbsp;
                     <Link to="/contact" className='btn btn-light rounded-5 border border-secondary'>Contact us</Link>                    
+                    <a className='btn btn-light' href="https://ritendra.in/" target='_blank'><FaUser/></a>
+               
                 </div>
             </div>
         </nav>

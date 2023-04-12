@@ -7,12 +7,84 @@ const About = () => {
         <h1>
           <u>React JS </u>
         </h1>
-        <div className="container py-3">
+        
+        <div className="container p-5">
+        <div className="container ">
           <h4>
             Getting started : Use command <b className="text-danger">npm run dev</b>
           </h4>
         </div>
         <h2>
+          <u className="text-info">News APP</u>
+        </h2>
+        <div className="container px-5">
+          <h5 className="aboutQoute">
+            A news app using React JS is a web application that allows users to
+            browse and read news articles from various sources. The app is built
+            using the React JS library, which provides a fast and efficient way
+            to build user interfaces.
+          </h5>
+          <h4>The main features of a news app using React JS include:</h4>
+          <ol>
+            <li>
+              Displaying news articles: The app displays a collection of news
+              articles from various sources, such as newspapers, magazines, or
+              blogs.
+            </li>
+            <li>
+              Filtering articles: Users can filter articles by topic, source, or
+              other criteria.
+            </li>
+            <li>
+              Searching for articles: Users can search for specific articles by
+              keyword.
+            </li>
+            <li>
+              Saving articles: Users can save their favorite articles for later
+              reading.
+            </li>
+            <li>
+              Sharing articles: Users can share articles on social media or via
+              email.
+            </li>
+          </ol>
+          <b>API : https://newsapi.org/v2/everything?q="TOPIC"&from=2023-03-11&sortBy=publishedAt&apiKey=6386d7740a064a90b22e801c1618ad77</b>
+          <p className="text-danger float-end">NOTE : Using Only LocalHost</p><br/><br/>
+          <b>API : https://newsdata.io/api/1/news?apikey=pub_2028019d6fdb5375f779ccaa625633b1d319e&q="TOPIC"</b>
+         
+          <p>
+            To build a news app using React JS, you will need to use a
+            combination of HTML, CSS, Bootstrap  and JavaScript to create the user
+            interface, and React JS to manage the app's state and render the
+            components.
+          </p>
+          <p>
+            Some of the key components you will need to create include a news
+            article list component, a filter component, a search component, a
+            saved articles component, and a share button component.
+          </p>
+          <p>
+            You will also need to integrate the app with a news API that
+            retrieves the articles. There are several news APIs available, such
+            as NewsAPI, Google News API, and New York Times API.
+          </p>
+
+          <p>
+            Overall, building a news app using React JS can be a challenging and
+            rewarding project that helps you learn the basics of web
+            development, user interface design, and API integration. &nbsp;
+            &nbsp; &nbsp;
+            <Link
+              to="/newsApp"
+              className="btn btn-light rounded-5 border border-secondary"
+            >
+              Visit APP
+            </Link>
+          </p>
+        </div>
+      </div>
+      <hr />
+       <h2>
           <u className="text-info">Quote APP</u>
         </h2>
         <div className="container px-5">
@@ -44,7 +116,7 @@ const About = () => {
               list for easy access.
             </li>
           </ol>
-          <h4><b>API : </b> https://quotable.io/random</h4>
+          <b>API :  https://quotable.io/random</b>
           <p>
             To build a quote app using React JS, you will need to use a
             combination of HTML, CSS, Bootstrap  and JavaScript to create the user
@@ -108,8 +180,10 @@ const About = () => {
               email.
             </li>
           </ol>
-          <h4><b>API : </b> https://newsapi.org/v2/everything?q="TOPIC"&from=2023-03-11&sortBy=publishedAt&apiKey=6386d7740a064a90b22e801c1618ad77</h4>
-
+          <b>API : https://newsapi.org/v2/everything?q="TOPIC"&from=2023-03-11&sortBy=publishedAt&apiKey=6386d7740a064a90b22e801c1618ad77</b>
+          <p className="text-danger float-end">NOTE : Using Only LocalHost</p><br/><br/>
+          <b>API : https://newsdata.io/api/1/news?apikey=pub_2028019d6fdb5375f779ccaa625633b1d319e&q="TOPIC"</b>
+         
           <p>
             To build a news app using React JS, you will need to use a
             combination of HTML, CSS, Bootstrap  and JavaScript to create the user
@@ -165,7 +239,7 @@ const About = () => {
       Downloading QR codes: Users can download the generated QR code as an image for later use.
       </li>
     </ol>
-    <h4><b>API : </b> https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TOPIC</h4>
+    <>API :  https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TOPIC</>
     
     <p>
     To build a URL to QR app using React JS, you will need to use a combination of HTML, CSS, Bootstrap  and JavaScript to create the user interface, and React JS to manage the app's state and render the components.

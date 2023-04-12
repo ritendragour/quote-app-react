@@ -18,7 +18,7 @@ const ViewNewsAPP = ({ news }) => {
           {/* urlToImage */}
           <h4 className="card-title descri-part">{news.description?news.description:<h1>No Description</h1>}</h4>
         </span>
-        <h5 className="card-title">{news.content}</h5>
+        <h5 className="card-title wordLimit">{news.content}</h5>
         <div className="container my-3">
         </div>
         {/* url */}

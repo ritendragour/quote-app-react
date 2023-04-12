@@ -54,3 +54,13 @@ img{
 .aboutQoute{
   padding: 10px;
 }
+.newName{
+    width: 20%;
+}
+.wordLimit{
+    display: -webkit-box;
+    text-align: justify;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient :vertical;
+    overflow: hidden;
+}
