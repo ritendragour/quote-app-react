@@ -8,7 +8,7 @@ const NewContainer = () => {
 const {newsss ,dispatch} = useContext(NewsAppContext)
 
 const handleNews= async()=>{
-    const data = await GetNews("Bhopal")
+    const data = await GetNews("seoni")
     dispatch({
       type : "GET_NEWS",
       payload : data
@@ -19,7 +19,6 @@ useEffect(()=>{
     handleNews()
 },[])
 
-// console.log(newsss)
     if(!newsss || newsss.length ===0){
         return
         ( 

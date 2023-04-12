@@ -49,3 +49,12 @@ img{
     padding-bottom: 120px;
 
 }
+.qr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inQR{
+    width: 40%;
+}

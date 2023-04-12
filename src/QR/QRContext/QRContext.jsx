@@ -6,7 +6,7 @@ const QRContext = createContext()
 export const QRProvider = ({children})=>{
 
 const initialstate = {
-    QRS : []
+    QRS : "check QR"
 }
 
 const [state, dispatch] = useReducer(QRReducer, initialstate)
