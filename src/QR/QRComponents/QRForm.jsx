@@ -17,17 +17,19 @@ const QRForm = () => {
     setText("")
   }
   return (
-    <>
+    <div className='qouteNews'>
+      <span>
+       <img src={QRS === "NO_QR"?"https://source.unsplash.com/random/150x150?tech":QRS} alt="" className='text-center mt-3 imggs' />
+      {QRS === "NO_QR"? <h3 className='mt-3 urlDownImg'>It's Default Image</h3>:<h3 className='text-danger mt-1 urlDownImg'>{QRS.replace('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=', 'YOUR URL : ').toUpperCase()}</h3>}
+      </span>
       <form className=' qr pt-5' onSubmit={(e)=>hanleQR(e)}>
         <div className="form-group col-xl-5 col-sm-12 col-md-10">
           <label>ENTER URL</label>
-          <input type="text" value={text} className="form-control mt-2 w-100" placeholder="Enter URL" onChange={(e)=>setText(e.target.value)} required/>
-          <input type='submit' value="Convert" className='btn btn-primary mt-3 text-center w-100'/>
+          <input type="text" value={text} className="form-control mt-2 " placeholder="Enter URL" onChange={(e)=>setText(e.target.value)} required/>
+          <input type='submit' value="Convert" className='btn btn-primary mt-3 text-center w-50'/>
         </div>
-       <img src={QRS === "NO_QR"?"https://source.unsplash.com/random/150x150?demo":QRS} alt="" className='text-center mt-3 imggs' />
-      {QRS === "NO_QR"? <h3 className='mt-3 urlDownImg'>It's Demo QR</h3>:<h3 className='text-danger mt-1 urlDownImg'>{QRS.replace('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=', 'YOUR URL : ').toUpperCase()}</h3>}
       </form>
-    </>
+    </div>
   )
 }
 

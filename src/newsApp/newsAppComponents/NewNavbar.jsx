@@ -22,7 +22,7 @@ const NewNavbar = () => {
       <marquee behavior="" direction="" className="w-50">India Today online cover latest headlines, breaking news, India news, videos from Headlines Today, the English channel of TV Today Network India.</marquee>
       <form className="d-flex float-end w-20" role="search" onSubmit={(e) => handleSubmit(e)}>
         {/* <input className="form-control me-2 p-2" type="search" placeholder="Search Country" onChange={(e)=>setText(e.target.value)} required/> */}
-        <select id="country" name="country" class="form-control" onChange={(e) => setText(e.target.value)}>
+        <select id="country" name="country" className="form-control" onChange={(e) => setText(e.target.value)}>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Åland Islands">Åland Islands</option>
           <option value="Albania">Albania</option>

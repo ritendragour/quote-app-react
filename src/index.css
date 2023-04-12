@@ -41,15 +41,32 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.qr{
-    background-color: rgb(181, 172, 172);
+.imggs{
+    width: 73%;
+    padding: 100px 100px 0px 100px;
+}
+.qouteNews{
+    background-color: rgb(119, 97, 97);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 86vh;
+    
+}
+.qouteNews form{
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
-.imggs{
-    width: 25%;
+.qouteNews span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 .aboutQoute{
   padding: 10px;

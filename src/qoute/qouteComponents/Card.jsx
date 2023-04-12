@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import QuoteContext from '../qouteContext/QuoteContext'
 import { getQuote } from '../qouteContext/QuoteAction'
 import Reload from '../../commonComponents/Reload'
+import { FaGreaterThan } from "react-icons/fa";
 
 const Card = () => {
 
@@ -36,7 +37,7 @@ const Card = () => {
                     <span className="badge bg-secondary">{quote.tags[1]}</span>
                     <span className="badge bg-secondary">{quote.tags[2]}</span>
                 </div>
-                <button className="btn btn-primary" onClick={handleCLick}>More ...</button>
+                <button className="btn btn-primary" onClick={handleCLick}>NEXT <FaGreaterThan/><FaGreaterThan/><FaGreaterThan/></button>
             </div>
         </div>
     )
