@@ -11,11 +11,11 @@ const NewNavbar = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     const data = await GetNews(text)
-    console.log(data)
     dispatch({
       type: "GET_NEWS",
       payload: data
     })
+    // console.log(text)
   }
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-2 mar">
