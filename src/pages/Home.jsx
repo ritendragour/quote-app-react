@@ -2,8 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import HomeButton from '../commonComponents/HomeButton'
 import { AiOutlineHome } from "react-icons/ai";
-
+// import Welcome from "../assets/Welcome.mp3"
 const Home = () => {
+  
+// function play(){
+//   new Audio (Welcome).play()
+// }
+
   return (
     <div className="home">
       <h1 className='p-5 text-center text-dark'><u>Welcome To React Project World</u></h1>
