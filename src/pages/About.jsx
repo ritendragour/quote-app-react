@@ -48,9 +48,9 @@ const About = () => {
                 email.
               </li>
             </ol>
-            <b>API : https://newsapi.org/v2/everything?q="TOPIC"&from=2023-03-11&sortBy=publishedAt&apiKey=6386d7740a064a90b22e801c1618ad77</b>
+            <b>API : https://newsapi.org/v2/everything?q="TOPIC"&from=2023-03-11&sortBy= publishedAt&apiKey=6386d7740a064a90b22e801c1618ad77</b>
             <p className="text-danger float-end">NOTE : Using Only LocalHost</p><br /><br />
-            <b>API : https://newsdata.io/api/1/news?apikey=pub_2028019d6fdb5375f779ccaa625633b1d319e&q="TOPIC"</b>
+            <b>API : https://newsdata.io/api/1/news?apikey= pub_2028019d6fdb5375f779ccaa625633b1d319e&q="TOPIC"</b>
 
             <p>
               To build a news app using React JS, you will need to use a
