@@ -7,12 +7,9 @@ import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import Qoute from "./qoute/qouteComponents/Qoute"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-// import Welcome from "./assets/Welcome.mp3"
 
 function App() {
-  // function play(){
-  //   new Audio (Welcome).play()
-  // }
+ 
   return (
     <BrowserRouter>
       <Navbar />

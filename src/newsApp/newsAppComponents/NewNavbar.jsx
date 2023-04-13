@@ -19,7 +19,7 @@ const NewNavbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-2 mar">
       <h2 className='newName'>World News 100+</h2>
-      <marquee behavior="" direction="" className="w-50">India Today online cover latest headlines, breaking news, India news, videos from Headlines Today, the English channel of TV Today Network India.</marquee>
+      <marquee behavior="" direction="" className="w-100 ">Today online cover latest headlines, breaking news, news, videos from Headlines Today, the English channel of TV Today Network .</marquee>
       <form className="d-flex float-end w-20" role="search" onSubmit={(e) => handleSubmit(e)}>
         {/* <input className="form-control me-2 p-2" type="search" placeholder="Search Country" onChange={(e)=>setText(e.target.value)} required/> */}
         <select id="country" name="country" className="form-control" onChange={(e) => setText(e.target.value)}>
@@ -270,7 +270,7 @@ const NewNavbar = () => {
         </select>
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <span className='w-30'>
+      <span className='w-30 HideShow'>
         <iframe src="https://free.timeanddate.com/clock/i8svmqrg/n1741" width="128" height="19"></iframe>
         <br />
         <iframe src="https://free.timeanddate.com/clock/i8svmqrg/n1741/tt1/tw0" width="129" height="19"></iframe>

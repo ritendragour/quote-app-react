@@ -24,7 +24,7 @@ const Card = () => {
     }
 
     return (
-        <div className="card container pt-5 w-50 mt-2 mb-2">
+        <div className="card container col-xl-5 col-sm-12 col-md-8 mt-2 mb-2">
             <div className="card-header h2">
                 Quote
             </div>
@@ -32,7 +32,7 @@ const Card = () => {
                 <p className="card-text h5">{quote.content}</p>
                 <img src={"https://source.unsplash.com/random/900%C3%97700/?"+quote.tags[0]} alt="IMG" width="100%" height="300px"/>
                 <h5 className="card-title">{quote.author}</h5>
-                <div className="container my-3">
+                <div className="container my-1">
                     <span className="badge bg-secondary">{quote.tags[0]}</span>
                     <span className="badge bg-secondary">{quote.tags[1]}</span>
                     <span className="badge bg-secondary">{quote.tags[2]}</span>

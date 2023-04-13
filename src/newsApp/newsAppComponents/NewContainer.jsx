@@ -7,7 +7,7 @@ const NewContainer = () => {
   const { newsss, dispatch } = useContext(NewsAppContext);
 
   const handleNews = async () => {
-    const data = await GetNews("indore");
+    const data = await GetNews("india");
     dispatch({
       type: "GET_NEWS",
       payload: data,

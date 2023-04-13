@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div className="container p-5">
-        <h1>
+      <div className="container marPad ">
+        <h1 className="marPad">
           <u>React JS </u>
         </h1>
-
-        <div className="container p-5">
-          <div className="container ">
+        <div className="container marPad ">
+          <div className="container marPad ">
           </div>
           <h2>
             <u className="text-info">News APP</u>
@@ -18,7 +17,7 @@ const About = () => {
               Getting for started : Use command <b className="text-danger">npm run dev</b>
             </h4>
             <h4 className="text-warning"> <b> Vite JS</b>  created by</h4><br />
-          <div className="container px-5">
+          <div className="container marPad">
             <h5 className="aboutQoute">
               A news app using React JS is a web application that allows users to
               browse and read news articles from various sources. The app is built
@@ -95,7 +94,7 @@ const About = () => {
             </h4>
             <h4 className="text-warning"> <b> Vite JS</b>  created by</h4><br />
 
-        <div className="container px-5">
+        <div className="container marPad">
           <h5 className="aboutQoute">
             A quote app using React JS is a web application that displays a
             collection of quotes and allows users to interact with them. The app
@@ -155,7 +154,7 @@ const About = () => {
 
       <hr />
 
-      <div className="container p-5">
+      <div className="container marPad">
         <h2>
           <u className="text-info">URL To QR CODE</u>
         </h2>
@@ -164,7 +163,7 @@ const About = () => {
             </h4>
             <h4 className="text-warning"> <b> Vite JS</b>  created by</h4><br />
 
-        <div className="container px-5">
+        <div className="container marPad">
           <h5 className="aboutQoute">
             A URL to QR app using React JS is a web application that allows users to convert a URL into a QR code. The app is built using the React JS library, which provides a fast and efficient way to build user interfaces.
           </h5>
@@ -180,7 +179,7 @@ const About = () => {
               Downloading QR codes: Users can download the generated QR code as an image for later use.
             </li>
           </ol>
-          <>API :  https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TOPIC</>
+          <b>API :  https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TOPIC</b>
 
           <p>
             To build a URL to QR app using React JS, you will need to use a combination of HTML, CSS, Bootstrap  and JavaScript to create the user interface, and React JS to manage the app's state and render the components.
@@ -211,7 +210,7 @@ const About = () => {
       </div>
 
 <hr />
-      <div className="container p-5">
+      <div className="container marPad">
         <h2>
           <u className="text-info">Todo app</u>
         </h2>
@@ -220,7 +219,7 @@ const About = () => {
             </h4>
             <h4 className="text-warning"> <b> Create-react-app</b>  created by</h4><br />
 
-        <div className="container px-5">
+        <div className="container marPad">
           <h5 className="aboutQoute">
             A Todo app is a common project for learning and practicing ReactJS, and using Context is a great way to manage global state in a React application. Here are the basic steps to create a Todo app using ReactJS Context:
           </h5>
@@ -263,7 +262,7 @@ const About = () => {
 
       <hr />
       
-      <div className="container p-5">
+      <div className="container marPad">
         <h2>
           <u className="text-info">Expense Manager</u>
         </h2>
@@ -272,7 +271,7 @@ const About = () => {
             </h4>
             <h4 className="text-warning"> <b> Create-react-app</b>  created by</h4><br />
 
-        <div className="container px-5">
+        <div className="container marPad">
           <h5 className="aboutQoute">
           An expense manager is a web application that helps users track their expenses and manage their budget. ReactJS is a popular JavaScript library for building user interfaces, and it can be used to create a component-based expense manager application.
 </h5>

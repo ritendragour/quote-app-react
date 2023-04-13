@@ -81,3 +81,60 @@ img{
     -webkit-box-orient :vertical;
     overflow: hidden;
 }
+.wordLimitside{
+  position: fixed;
+  right: 40px;  
+  bottom: 10px;
+  top: 2;
+}
+.wordLimitside7{
+    display: -webkit-box;
+    text-align: justify;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient :block-axis;
+    overflow: hidden;
+}
+.uiNews{
+    position: relative;
+    display: flex;
+    padding: 10px 20px;
+    padding-left: 80px;
+    justify-content: space-between;
+}
+
+.marPad{
+    padding-top: 10px;
+}
+@media (max-width : 768px) {
+    .HideShow{
+        display: none;
+    }
+    .MobilePadding{
+        padding: 10px;
+    }
+    .newName{
+        width: 100%;
+    }
+    .qoute{
+        height: 100vh; 
+    }
+    .marPad{
+        padding: 5px 20px;
+        margin: 0px;
+    }
+    .qouteNews{
+        flex-direction: column-reverse ;
+    }
+    .qouteNews form{
+        width: 100%;
+    
+    }
+    .qouteNews span{
+        width: 100%;
+    }
+    .imggs{
+        width: 50%;
+        padding: 0px
+    }
+    
+}
