@@ -212,7 +212,7 @@ const About = () => {
 <hr />
       <div className="container marPad">
         <h2>
-          <u className="text-info">Todo app</u>
+          <u className="text-info">Todo App</u>
         </h2>
         <h4>
               Getting for started : Use command <b className="text-danger">npm start</b>
