@@ -56,7 +56,7 @@ img{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
 .qouteNews{
     background-color: rgb(241, 232, 232);
