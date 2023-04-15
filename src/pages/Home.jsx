@@ -14,7 +14,6 @@ const Home = () => {
       <h1 className='p-5 text-center text-dark'><u>Welcome To React Project World</u></h1>
       <HomeButton />
       <div className="flex-end text-center">
-        <Link to="/" className='btn btn-light rounded-5 border border-secondary'><AiOutlineHome /> Home</Link>
         &nbsp;&nbsp;
         <Link to="/about" className='btn btn-light rounded-5 border border-secondary'>About</Link>
         &nbsp;&nbsp;

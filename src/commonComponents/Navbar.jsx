@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light px-3">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light px-3 border border-secondary">
                 <div className="container-fluid">
                     <Link className="navbar-brand  p-2" to="/">React World</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
