@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Link to="/qr" className='btn btn-light rounded-5 border border-secondary'>URL TO QR</Link>
                     &nbsp;
                     {/* <Link to="/contact" className='btn btn-light rounded-5 border border-secondary'>Contact us</Link>                     */}
-                    <a className='btn btn-light' href="https://ritendra.in/" target='_blank'><FaUser/></a>
+                    {/* <a className='btn btn-light' href="https://ritendra.in/" target='_blank'><FaUser/></a> */}
                
                 </div>
             </div>

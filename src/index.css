@@ -46,8 +46,8 @@ img{
     padding: 100px 100px 0px 100px;
 }
 .qouteNews{
-    background-color: rgb(119, 97, 97);
-    color: white;
+    background-color: rgb(241, 232, 232);
+    color: rgb(12, 11, 11);
     display: flex;
     justify-content: center;
     height: 86vh;
