@@ -18,7 +18,7 @@ const Navbar = () => {
                         </ul>
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <Link to="/" className='btn btn-light rounded-5 '> Home</Link>
+                                <Link to="/" className='btn btn-light rounded-5'> Home</Link>
                                 {/* <AiOutlineHome /> */}
                             </li>
                             <li className="nav-item">

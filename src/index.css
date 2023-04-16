@@ -129,6 +129,11 @@ img{
 .ShowHide{
     display: none;
 }
+@media (max-width : 1330px) {
+    .HideShow_side{
+        display: none;
+    }
+}
 @media (max-width : 768px) {
     .HideShow{
         display: none;

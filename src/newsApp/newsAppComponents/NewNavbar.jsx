@@ -16,14 +16,26 @@ const NewNavbar = () => {
     })
     // console.log({newsss[0].title})
   }
+
+  function SearchTopic(Topic){
+    setText(Topic)
+  }
+
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-2 mar">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary py-2 mar w-100">
       <h2 className='newName'>World News</h2>
-      <marquee behavior="" direction="" className="w-100 ">Today online cover latest headlines, breaking news, news, videos from Headlines Today, the English channel of TV Today Network .</marquee>
-      <form className="d-flex float-end w-20" role="search" onSubmit={(e) => handleSubmit(e)}>
-        {/* <input className="form-control me-2 p-2" type="search" placeholder="Search Country" onChange={(e)=>setText(e.target.value)} required/> */}
-        <select id="country" name="country" className="form-control" onChange={(e) => setText(e.target.value)}>
+      <form className="d-flex float-end" role="search" onSubmit={(e) => handleSubmit(e)}>
+      <button className='mx-1 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Health')}>Health</button>
+      <button className='mx-1 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Business')}>Business</button>
+      <button className='mx-1 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Crypto')}>Crypto</button>
+      <button className='mx-1 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Weather')}>Weather</button>
+      <button className='mx-1 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Sports')}>Sports</button>
+      <button className='mx-1 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Science')}>Science</button>
+      <button className='mx-2 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Education')}>Education</button>
+        <input className="form-control me-2 p-2" type="search" placeholder="Search Topic" onChange={(e)=>setText(e.target.value)} />
+        <select id="country" name="country" className="form-control mx-1" onChange={(e) => setText(e.target.value)}>
+          <option value="" disabled selected>Search Country</option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Åland Islands">Åland Islands</option>
           <option value="Albania">Albania</option>
@@ -277,7 +289,8 @@ const NewNavbar = () => {
         <iframe src="https://free.timeanddate.com/clock/i8svmqrg/n1741/tt1/tw0" width="129" height="19"></iframe>
       </span>
     </nav>
-      
+<marquee behavior="" direction="" className="w-100 bg-danger m-0 p-3">Today online cover latest headlines, breaking news, news, videos from Headlines Today, the English channel of TV Today Network .</marquee>
+
     </>
   )
 }

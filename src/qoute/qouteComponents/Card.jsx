@@ -21,14 +21,20 @@ const Card = () => {
     }
 
     // name
-    const [name , setName] = useState('Waiting')
+    const [name , setName] = useState('')
     
     const enterName = ()=>{
 
-       let FullNAME =  prompt("Please Enter Your Full Name")
-       let FirstLetterUpperCase = FullNAME.replace(FullNAME.charAt(),FullNAME.charAt().toUpperCase())
-        setName(FirstLetterUpperCase)
+       let FullNAME =  FirstLetterWillAlwaysUpperCase(prompt("Please Enter Your Full Name"))
+        setName(FullNAME)
     }
+
+    function FirstLetterWillAlwaysUpperCase (NamePara){
+    
+        return NamePara.replace(NamePara.charAt(),NamePara.charAt().toUpperCase())
+    
+    }
+
     useEffect(() => {
         enterName();
     },[])
@@ -40,7 +46,7 @@ const Card = () => {
             </div>
             <div className="card-body quote-main">
                 <span>
-                    <h1>Hey, </h1>
+                    <h1>&nbsp;&nbsp;&nbsp;Hey, </h1>
                     <h1 className='text-center pt-2 pb-2'>{name}</h1>
                     <p className="card-text h5">{quote.content}</p>
                     <img src={"https://source.unsplash.com/random/900%C3%97700/?" + quote.tags[0]} alt="IMG" width="100%" height="300px" className='ShowHide' />
