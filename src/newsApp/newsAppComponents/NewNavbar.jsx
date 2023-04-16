@@ -35,7 +35,7 @@ const NewNavbar = () => {
       <button className='mx-2 HideShow_side btn btn-light rounded-5' onClick={()=>SearchTopic('Education')}>Education</button>
         <input className="form-control me-2 p-2" type="search" placeholder="Search Topic" onChange={(e)=>setText(e.target.value)} />
         <select id="country" name="country" className="form-control mx-1" onChange={(e) => setText(e.target.value)}>
-          <option value="" disabled selected>Search Country</option>
+          {/* <option value="" disabled selected>Search Country</option> */}
           <option value="Afghanistan">Afghanistan</option>
           <option value="Åland Islands">Åland Islands</option>
           <option value="Albania">Albania</option>
@@ -289,7 +289,9 @@ const NewNavbar = () => {
         <iframe src="https://free.timeanddate.com/clock/i8svmqrg/n1741/tt1/tw0" width="129" height="19"></iframe>
       </span>
     </nav>
-<marquee behavior="" direction="" className="w-100 bg-danger m-0 p-3">Today online cover latest headlines, breaking news, news, videos from Headlines Today, the English channel of TV Today Network .</marquee>
+<marquee behavior="" direction="" className="w-100 bg-danger m-0 p-3">
+J P Singh, joint secretary of the Pak-Afghan-Iran Division of the Indian Ministry of External Affairs, and Elisabeth Faure, a representative and the country .....
+</marquee>
 
     </>
   )
