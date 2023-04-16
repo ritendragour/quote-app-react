@@ -24,7 +24,10 @@ const Card = () => {
     const [name , setName] = useState('Waiting')
     
     const enterName = ()=>{
-        setName(prompt("Please Enter Your Name"))
+
+       let FullNAME =  prompt("Please Enter Your Full Name")
+       let FirstLetterUpperCase = FullNAME.replace(FullNAME.charAt(),FullNAME.charAt().toUpperCase())
+        setName(FirstLetterUpperCase)
     }
     useEffect(() => {
         enterName();
