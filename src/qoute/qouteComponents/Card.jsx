@@ -49,7 +49,7 @@ const Card = () => {
                     <h1>&nbsp;&nbsp;&nbsp;Hey, </h1>
                     <h1 className='text-center pt-2 pb-2'>{name}</h1>
                     <p className="card-text h5">{quote.content}</p>
-                    <img src={"https://source.unsplash.com/random/900%C3%97700/?" + quote.tags[0]} alt="IMG" width="100%" height="300px" className='ShowHide' />
+                    <img src={"https://source.unsplash.com/random/900%C3%97700/?" + quote.tags[0]} alt="IMG" width="100%" height="200px" className='ShowHide' />
                     <h5 className="card-title mt-3">{quote.author}</h5>
                     <div className="container my-1">
                         <p className="badge bg-secondary">{quote.tags[0]}</p>
