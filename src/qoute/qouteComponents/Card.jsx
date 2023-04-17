@@ -14,10 +14,9 @@ const Card = () => {
             type: "CHANGE",
             payload: data
         })
-
-        if (!quote) {
-            return (<Reload />)
-        }
+    }
+    if (!quote) {
+        return (<Reload />)
     }
 
     // name
