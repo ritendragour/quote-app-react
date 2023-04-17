@@ -2,9 +2,12 @@ import React from 'react'
 
 const Reload = () => {
     return (
-        <div className="spinner-border" role="status">
-            <span className="visually-hidden">Loading...</span>
-        </div>
+        <>
+            <h1 class="spinner">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                 &nbsp; &nbsp;Please Wait Data are Loading
+            </h1>
+        </>
     )
 }
 

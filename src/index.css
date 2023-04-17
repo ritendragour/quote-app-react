@@ -129,6 +129,17 @@ img{
 .ShowHide{
     display: none;
 }
+.spinner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.spinner-border{
+    width: 5%;
+    height: 10vh;
+}
 @media (max-width : 1330px) {
     .HideShow_side{
         display: none;

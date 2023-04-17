@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import ViewNewsAPP from "./ViewNewsAPP";
 import NewsAppContext from "../NewsAppContext/NewsAppContext";
 import { GetNews } from "../NewsAppContext/NewsAppAction";
+import Reload from "../../commonComponents/Reload";
 
 const NewContainer = () => {
   const { newsss, dispatch } = useContext(NewsAppContext);
@@ -20,7 +21,9 @@ const NewContainer = () => {
 
   if(!newsss){
     return (
-      <h1>No Data...</h1>
+      <>
+      <Reload/>
+      </>
     )
   }
 
